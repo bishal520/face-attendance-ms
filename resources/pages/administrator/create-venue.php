@@ -76,11 +76,6 @@ if (isset($_POST["addVenue"])) {
                 <div class="title">
                     <h2 class="section--title">Rooms</h2>
                     <div class="rooms--right--btns">
-                        <select name="date" id="date" class="dropdown room--filter">
-                            <option>Filter</option>
-                            <option value="free">Free</option>
-                            <option value="scheduled">Scheduled</option>
-                        </select>
                         <button id="addClass1" class="add show-form"><i class="ri-add-line"></i>Add lecture room</button>
                     </div>
                 </div>
