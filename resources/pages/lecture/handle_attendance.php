@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $attendanceStatus = $data['attendanceStatus'];
                 $course = $data['course'];
                 $unit = $data['unit'];
-                $date = date("Y-m-d");
+                $date = date('Y-m-d H:i:s');
 
                 $stmt->execute([
                     ':studentID' => $studentID,
